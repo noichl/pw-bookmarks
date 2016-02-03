@@ -19,4 +19,11 @@ trait SimpleMocksTrait{
 						->disableOriginalConstructor()
 						->getMock();
 	}
+
+	private function getBookmarkCategoryMock() {
+		return $this->getMockBuilder(BookmarkCategory::class)
+					->disableOriginalConstructor()
+					->getMock();
+	}
+
 }

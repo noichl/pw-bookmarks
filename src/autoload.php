@@ -8,7 +8,9 @@ spl_autoload_register(
         if ($classes === null) {
             $classes = array(
                 'bookmark' => '/Bookmark.php',
+                'bookmarkcategory' => '/BookmarkCategory.php',
                 'bookmarkcomment' => '/BookmarkComment.php',
+                'bookmarkentry' => '/BookmarkEntry.php',
                 'mailaddress' => '/MailAddress.php',
                 'url' => '/Url.php',
                 'user' => '/User.php'
