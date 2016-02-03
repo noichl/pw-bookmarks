@@ -26,4 +26,9 @@ trait SimpleMocksTrait{
 					->getMock();
 	}
 
+	private function getBookmarkEntryCollectionMock() {
+		return $this->getMockBuilder(BookmarkEntryCollection::class)
+					->disableOriginalConstructor()
+					->getMock();
+	}
 }

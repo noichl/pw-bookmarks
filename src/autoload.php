@@ -11,6 +11,7 @@ spl_autoload_register(
                 'bookmarkcategory' => '/BookmarkCategory.php',
                 'bookmarkcomment' => '/BookmarkComment.php',
                 'bookmarkentry' => '/BookmarkEntry.php',
+                'bookmarkentrycollection' => '/BookmarkEntryCollection.php',
                 'mailaddress' => '/MailAddress.php',
                 'url' => '/Url.php',
                 'user' => '/User.php'

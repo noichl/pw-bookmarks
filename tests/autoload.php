@@ -9,6 +9,7 @@ spl_autoload_register(
             $classes = array(
                 'bookmarkcategorytest' => '/BookmarkCategoryTest.php',
                 'bookmarkcommenttest' => '/BookmarkCommentTest.php',
+                'bookmarkentrycollectiontest' => '/BookmarkEntryCollectionTest.php',
                 'bookmarkentrytest' => '/BookmarkEntryTest.php',
                 'bookmarktest' => '/BookmarkTest.php',
                 'mailaddresstest' => '/MailAddressTest.php',
