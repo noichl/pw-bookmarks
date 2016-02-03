@@ -34,9 +34,9 @@ class MailAddressTest extends \PHPUnit_Framework_TestCase {
 
 	/**
 	 * @dataProvider inValidMailAddressesProvider
-	 * @expectedException \InvalidArgumentException
 	 */
 	public function testThrowsExceptionOnInvalidMailAddress($testAddress) {
+		$this->setExpectedException(\InvalidArgumentException::class);
 		$mail = new MailAddress($testAddress);
 	}
 }

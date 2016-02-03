@@ -18,4 +18,11 @@ class User {
 	public function __construct(MailAddress $mailAddress) {
 		$this->mailAddress = $mailAddress;
 	}
+
+	/**
+	 * @return MailAddress
+	 */
+	public function getMailAddress(): MailAddress{
+		return $this->mailAddress;
+	}
 }

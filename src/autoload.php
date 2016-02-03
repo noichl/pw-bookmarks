@@ -7,7 +7,10 @@ spl_autoload_register(
         static $classes = null;
         if ($classes === null) {
             $classes = array(
+                'bookmark' => '/Bookmark.php',
+                'bookmarkcomment' => '/BookmarkComment.php',
                 'mailaddress' => '/MailAddress.php',
+                'url' => '/Url.php',
                 'user' => '/User.php'
             );
         }
