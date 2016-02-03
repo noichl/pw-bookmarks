@@ -34,7 +34,7 @@
             <arg value="-qrr"/>
             <arg path="${basedir}/phpunit.phar"/>
             <arg value="-c"/>
-            <arg path="phpunit.xml"/>
+            <arg path="phpunitCoverage.xml"/>
             <arg path="tests"/>
         </exec>
     </target>
